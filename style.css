@@ -1,0 +1,126 @@
+.banner_text {
+    left: 40% !important;
+    right: 50px !important;
+    text-align: left !important;
+    padding-left: 50px;
+    padding-right: 50px;
+    border-radius: 15px;
+
+}
+
+.hr_ {
+    border: 1px dashed black;
+}
+
+.circle_ {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+
+
+}
+
+
+
+.circular-progress {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    font-weight: bold;
+    color: #0d6efd;
+}
+
+.text {
+    position: relative;
+    z-index: 1;
+}
+
+.Prayer {
+    background: conic-gradient(red 0% 87%, rgb(151, 146, 146) 87% 100%);
+}
+
+.Experienced {
+    background: conic-gradient(green 0% 95%, rgb(151, 146, 146) 95% 100%);
+}
+
+.Senior {
+    background: conic-gradient(Yellow 0% 90%, rgb(151, 146, 146) 90% 100%);
+}
+
+.Training {
+    background: conic-gradient(blue 0% 80%, rgb(151, 146, 146) 80% 100%);
+}
+
+.circular-progress::before {
+    content: "";
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    background-color: white;
+    border-radius: 50%;
+}
+
+.image_ {
+    width: 48%;
+    height: 400px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 15px;
+}
+
+.TEXT {
+    padding-top: 100px;
+    padding-left: 50px;
+    padding-right: 30px;
+    color: white;
+}
+
+.Junior {
+    background-image: url(Images/2.png);
+}
+
+.Teenager {
+    background-image: url(Images/3.png);
+}
+
+.Professional {
+    background-image: url(Images/4.png);
+    width: 100%;
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 15px;
+}
+
+.question {
+    border: 1px solid black;
+    width: 100%;
+    height: 800px;
+    border-radius: 15px;
+
+}
+
+.contact_border {
+    border: 1px solid red;
+}
+
+.contact_box {
+
+    width: 500px;
+    height: 200px;
+    border-radius: 15px;
+
+}
+
+.Footer {
+    background: black;
+    color: white;
+}
+
+.Footer li {
+    list-style: none;
+}
